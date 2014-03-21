@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+        <ProgressBar
+            android:id="@+id/buisnessPlanProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar_horisontal"
+            android:max="100"
+            android:progress="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <GridView
+            android:id="@+id/gvBuisnessPlanSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:horizontalSpacing="16dp"
+    		android:verticalSpacing="16dp"
+            android:numColumns="2" >
+        </GridView>
+
+</LinearLayout>

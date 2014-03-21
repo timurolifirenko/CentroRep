@@ -1,0 +1,17 @@
+<cards>
+	<card caption="" type="choise_text_box" value="">
+	    <choise-text-box>
+	            <item caption="" value="" action-caption=""/>
+	    </choise-text-box>
+	</card>
+	<card caption="" type="choise_horisontal" value="">
+	    <choise-horisontal>
+	            <item caption="" value="" action-caption=""/>
+	    </choise-horisontal>
+	</card>
+	<card caption="" type="choise_vertical" value="">
+	    <choise-vertical>
+	            <item caption="" value="" action-caption=""/>
+	    </choise-vertical>
+	</card>
+</cards>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/rounded_green_border_all" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingRight="10dp"
+        android:background="@drawable/rounded_green_border_top">
+
+        <TextView
+            android:id="@+id/tvStepNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="#"  
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/step_number"
+             />
+
+        <ImageView
+            android:id="@+id/imgLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/ic_lock_lock" />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="20%"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/btn_check_buttonless_on" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <TextView
+            android:id="@+id/tvCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Caption"
+            android:lines="2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+
+</LinearLayout>

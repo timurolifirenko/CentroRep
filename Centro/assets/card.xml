@@ -1,0 +1,16 @@
+<step pos="1" caption="plans" progress="76">
+	<card caption="have wife" type="select" value="1">
+		<item caption="no" value="0"/>
+		<item caption="yes" value="1"/>
+	</card>
+	<card caption="have child" type="select" value="1">
+		<item caption="no" value="0"/>
+		<item caption="yes" value="1"/>
+	</card>
+	<card caption="count of children" type="int" value="" minValue="1" maxValue="50" />
+	<card caption="gadgets that you have" type="multiselect" value="iphone;TV" >
+		<item caption="iphone" value="iphone"/>
+		<item caption="ipad" value="ipad"/>
+		<item caption="TV" value="TV"/>
+	</card>
+</step>
